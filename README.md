@@ -15,4 +15,4 @@ This repository can be downloaded and viewed to with any modern web browser.
 
 The 16x16 favicon is from the Silk icon theme by Mark James.
 
-The javascript thumnail viewer is from [Dynamic Drive](www.dynamicdrive.com)
+ The javascript thumnail viewer is from [Dynamic Drive](www.dynamicdrive.com)
