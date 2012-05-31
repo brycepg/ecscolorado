@@ -3,9 +3,9 @@ ecscolorado
 
 The code may be up at [ecscolorado.com](http://www.ecscolorado.com/).
 
-## About
+### About
 
-I decided that one of my local businesses' websites need work, so I revamped it.
+I decided that a local business' websit need work, so I revamped it.
 
 ### Usage
 
