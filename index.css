@@ -1,0 +1,13 @@
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+img#thumbnail {
+    margin: 5px 5px 0 12px;
+    max-width: 30%;
+    border: 2px solid;
+    float: right;
+}
+
+

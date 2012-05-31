@@ -2,48 +2,95 @@ body {
     /*background-color:#D2EFF5;*//*orig*/
     /*background-color:#000;*/
     background-color:#06799f;
+    font-family: 'Tinos', sans-serif;
+    font-size: 12pt;
     /*background-color:#3aaacf;*/
-    box-shadow: 0 .3em 1em #000;
-    -moz-box-shadow: 0 .3em 1em #000;
-    -webkit-box-shadow: 0 .3em 1em #000;
 }
 p {
 }
-div#header {
-    background-color:#61B4CF;
-    margin: auto;
+div#floater {
     width: 800px;
-    height: 100px;
-    padding-left: 20px;
-    margin-top: 20px;
-    text-align:center;
-    font-size: 175%;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 .3em 1em #000;
     -moz-box-shadow: 0 .3em 1em #000;
     -webkit-box-shadow: 0 .3em 1em #000;
-
+}
+div#header {
+    background-color:#61B4CF;
+    margin: 20px 0 0 0;
+    width: auto;
+    height: 100px;
+    padding: 0 0 20px 0;
+    text-align:center;
+    font-size: 175%;
 }
 div#content {
     /*background-color:#bdedff;*/
     background-color:#fff;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
-    padding-left: 15px;
+    margin: 0;
+    width: auto;
+    height: 500px;
+    padding-left: 0px;
     padding-right: 5px;
+    padding-top: 0px;
     padding-bottom: 5px;
-    padding-top: 15px;
-    box-shadow: 0 .3em 1em #000;
-    -moz-box-shadow: 0 .3em 1em #000;
-    -webkit-box-shadow: 0 .3em 1em #000;
 }
 
-img#header {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+div#text {
+    display: block-inline;
+    padding-left: 5px;
+    padding-top: 7px;
 }
 
-img {
-	border: 4px solid;
+
+ul#nav
+{
+    margin: 0px 0 0 0;
+    padding: 0;
+    width: auto;
+    white-space: nowrap;
+}
+
+#nav li
+{
+    display: inline;
+    list-style-type: none;
+}
+
+#nav a { 
+    padding: 0px 10px 1px 10px; 
+    margin: 0;
+}
+
+
+#nav a:link, #nav a:visited
+{
+    color: black;
+    /*background-color: #3aaacf;*/
+    background-color: #61B4CF;
+    text-decoration: none;
+}
+
+#nav a:hover
+{
+    color: black;
+    /*background-color: #06799f;*/
+    background-color: white;
+    text-decoration: none;
+}
+
+#nav li#active a{
+    background-color: white;
+}
+
+
+div#navbar{
+    background-color:#61B4CF;
+    float:left;
+}
+
+a#thumbnail{
+    text-decoration: none;
+    color: black; /*hyperlink changes border*/
 }
