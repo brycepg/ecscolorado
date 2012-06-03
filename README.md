@@ -1,7 +1,7 @@
 ecscolorado
 ===========
 
-The code may be up at [ecscolorado.com](http://www.ecscolorado.com/).
+The code may be up at [ecscolorado.com](http://www.ecscolorado.com/). If not, then it may be reached at [server.azrathud.com/ecscolorado](http://www.server.azrathud.com/ecscolorado)
   
   
   
