@@ -3,11 +3,11 @@ body {
     /*background-color:#000;*/
     background-color:#06799f;
     font-family: 'Tinos', sans-serif;
-    font-size: 12pt;
+    font-size: 1em;
     /*background-color:#3aaacf;*/
 }
 div#floater {
-    width: 800px;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 .3em 1em #000;
@@ -16,11 +16,11 @@ div#floater {
 }
 div#header {
     background-color:#61B4CF;
-    margin: 20px 0 0 0;
+    margin: 2% 0 0 0;
     width: auto;
-    height: 100px;
-    padding: 0 0 20px 0;
+    padding: 1em 0 1em 0;
     text-align:center;
+    /*font-size: 1.75em;*/
     font-size: 175%;
 }
 div#content {
@@ -28,18 +28,16 @@ div#content {
     background-color:#fff;
     margin: 0;
     width: auto;
-    min-height: 500px;
+    min-height: 300px;
     height: auto;
     padding-left: 0px;
-    padding-right: 5px;
     padding-top: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 0.6%;
 }
 
 div#text {
     display: block-inline;
-    padding-left: 5px;
-    padding-top: 1.5em;
+    padding-top: 5%;
     margin-right: auto;
     margin-left: auto;
     width: 95%;
@@ -50,20 +48,19 @@ ul#nav
 {
     margin: 0px 0 0 0;
     padding: 0;
-    width: auto;
-    white-space: nowrap;
+    background-color: #61B4CF;
+    float:left;
 }
 
 #nav li
 {
     display: inline;
     list-style-type: none;
-    padding: 3px 0 3px 0px;
+    margin: 0;
 }
 
 #nav a { 
     padding: 0px 10px 1px 10px; 
-    margin: 0;
 }
 
 
@@ -88,12 +85,19 @@ ul#nav
 }
 
 
-div#navbar{
-    background-color:#61B4CF;
-    float:left;
-}
-
 a#thumbnail{
     text-decoration: none;
     color: black; /*hyperlink changes border*/
+}
+
+div#footer{
+    background-color: #61B4CF;
+    padding: 3% 0 .9% 0;
+
+}
+
+div#footer img {
+    display: block; /* allows for margin editing */
+    margin-left: auto;
+    margin-right: auto;
 }
