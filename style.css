@@ -116,10 +116,11 @@ a#thumbnail{
 }
 
 div#footer{
-    border-radius: 15px; 
-    -moz-border-radius: 15px; 
-    -webkit-border-radius: 15px; 
-    background-color: #61B4CF;
+    border-radius:  0 0 15px 15px; 
+    -moz-border-radius:  0 0 15px 15px; 
+    -webkit-border-radius:  0 0 15px 15px; 
+    /*background-color: #61B4CF;*/
+    background-color: white;
     padding: 3% 0 .9% 0;
 
 }
