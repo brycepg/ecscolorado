@@ -13,8 +13,16 @@ div#floater {
     box-shadow: 0 .3em 1em #000;
     -moz-box-shadow: 0 .3em 1em #000;
     -webkit-box-shadow: 0 .3em 1em #000;
+    border-radius: 15px; 
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border: 1px solid #61B4CF;
+    background-color:#61B4CF;
 }
 div#header {
+    border-radius: 15px; 
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
     background-color:#61B4CF;
     margin: 2% 0 0 0;
     width: auto;
@@ -104,6 +112,9 @@ a#thumbnail{
 }
 
 div#footer{
+    border-radius: 15px; 
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
     background-color: #61B4CF;
     padding: 3% 0 .9% 0;
 
