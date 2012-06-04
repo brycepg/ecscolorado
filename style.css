@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     /*background-color:#D2EFF5;*//*orig*/
     /*background-color:#000;*/
     background-color:#06799f;
@@ -13,17 +14,10 @@ div#floater {
     box-shadow: 0 .3em 1em #000;
     -moz-box-shadow: 0 .3em 1em #000;
     -webkit-box-shadow: 0 .3em 1em #000;
-    border-radius: 15px; 
-    -moz-border-radius: 15px; 
-    -webkit-border-radius: 15px; 
     background-color:#61B4CF;
 }
 div#header {
-    border-radius: 15px; 
-    -moz-border-radius: 15px; 
-    -webkit-border-radius: 15px; 
     background-color:#61B4CF;
-    margin: 2% 0 0 0;
     width: auto;
     padding: 1em 0 1em 0;
     text-align:center;
@@ -37,7 +31,6 @@ div#content {
     width: auto;
     min-height: 300px;
     height: auto;
-    padding-left: 0px;
     padding-top: 0px;
     padding-bottom: 0.6%;
 }
@@ -45,6 +38,7 @@ div#content {
 div#text {
     display: block-inline;
     padding-top: 5%;
+    padding-left: 30px;
     margin-right: auto;
     margin-left: auto;
     width: 95%;
@@ -70,9 +64,6 @@ ul#nav
 #nav a { 
     padding: 0px 5px 1px 5px; 
     margin: 0 -4px 0 0;
-    border-radius: 5px 5px 0 0; 
-    -moz-border-radius: 5px 5px 0 0; 
-    -webkit-border-radius: 5px 5px 0 0; 
     border 1px solid;
     border-right: 1px solid ;
     /*border-left: 1px solid ;*/
@@ -116,9 +107,6 @@ a#thumbnail{
 }
 
 div#footer{
-    border-radius:  0 0 15px 15px; 
-    -moz-border-radius:  0 0 15px 15px; 
-    -webkit-border-radius:  0 0 15px 15px; 
     /*background-color: #61B4CF;*/
     background-color: white;
     padding: 3% 0 .9% 0;
