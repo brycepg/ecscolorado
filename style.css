@@ -26,6 +26,12 @@ div#header {
     text-align:center;
     font-size: 175%;
 }
+div#header-text {
+    display: inline-block;
+    padding: 15px 0;
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+}
 div#content {
     background-color:#fff;
     margin: 0;
@@ -57,20 +63,17 @@ ul#nav
 {
     display: inline;
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
     margin: 0px 0px;
 
 }
 
 #nav a { 
-    padding: 0px 5px 1px 5px; 
-    margin: 0 -3px 0 0;
+    padding: 1px 5px 1px 5px; 
     border-radius: 5px 5px 0 0; 
     -moz-border-radius: 5px 5px 0 0; 
     -webkit-border-radius: 5px 5px 0 0; 
-    border 1px solid;
     border-right: 1px solid ;
-    /*border-left: 1px solid ;*/
 }
 
 #navbar {
