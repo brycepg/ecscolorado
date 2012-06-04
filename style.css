@@ -34,13 +34,13 @@ div#header-text {
 }
 div#content {
     background-color:#fff;
-    margin: 0;
     width: auto;
     min-height: 300px;
     height: auto;
     padding-left: 0px;
     padding-top: 0px;
-    padding-bottom: 0.6%;
+    padding-bottom: 0.2%;
+    margin: 0;
 }
 
 div#text {
@@ -69,7 +69,7 @@ ul#nav
 }
 
 #nav a { 
-    padding: 1px 5px 1px 5px; 
+    padding: 0px 5px 1px 5px; 
     border-radius: 5px 5px 0 0; 
     -moz-border-radius: 5px 5px 0 0; 
     -webkit-border-radius: 5px 5px 0 0; 
@@ -116,7 +116,7 @@ div#footer{
     -moz-border-radius:  0 0 15px 15px; 
     -webkit-border-radius:  0 0 15px 15px; 
     background-color: white;
-    padding: 3% 0 .9% 0;
+    padding: 0 0 .9% 0;
 
 }
 
