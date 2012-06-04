@@ -1,10 +1,7 @@
 body {
-    /*background-color:#D2EFF5;*//*orig*/
-    /*background-color:#000;*/
     background-color:#06799f;
     font-family: 'Tinos', sans-serif;
     font-size: 1em;
-    /*background-color:#3aaacf;*/
 }
 div#floater {
     width: 95%;
@@ -27,11 +24,9 @@ div#header {
     width: auto;
     padding: 1em 0 1em 0;
     text-align:center;
-    /*font-size: 1.75em;*/
     font-size: 175%;
 }
 div#content {
-    /*background-color:#bdedff;*/
     background-color:#fff;
     margin: 0;
     width: auto;
@@ -90,7 +85,6 @@ ul#nav
 #nav a:link, #nav a:visited
 {
     color: black;
-    /*background-color: #3aaacf;*/
     text-decoration: none;
     background-color:#07899f;
     background-color: #61B4CF;
@@ -100,7 +94,6 @@ ul#nav
 #nav a:hover
 {
     color: black;
-    /*background-color: #06799f;*/
     background-color: white;
     text-decoration: none;
 }
@@ -119,7 +112,6 @@ div#footer{
     border-radius:  0 0 15px 15px; 
     -moz-border-radius:  0 0 15px 15px; 
     -webkit-border-radius:  0 0 15px 15px; 
-    /*background-color: #61B4CF;*/
     background-color: white;
     padding: 3% 0 .9% 0;
 
