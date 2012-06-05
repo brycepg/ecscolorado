@@ -148,12 +148,9 @@ hr.dotted {
     border-style: dashed;
 }
 
-hr#to-left {
-    margin-right: 15px;
+hr#bottom-dividing {
+    margin:auto;
+    width: 70%;
     padding-bottom: 30px;
 }
 
-hr#to-right {
-    margin-left: 25px;
-    padding-bottom: 30px;
-}
