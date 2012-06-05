@@ -152,5 +152,6 @@ hr#bottom-dividing {
     margin:auto;
     width: 70%;
     padding-bottom: 30px;
+    clear: both;
 }
 
