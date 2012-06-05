@@ -13,12 +13,12 @@ div#floater {
     border-radius: 15px; 
     -moz-border-radius: 15px; 
     -webkit-border-radius: 15px; 
-    background-color:#61B4CF;
+    background-color:white;
 }
 div#header {
-    border-radius: 15px; 
-    -moz-border-radius: 15px; 
-    -webkit-border-radius: 15px; 
+    border-radius: 15px 15px 0 0; 
+    -moz-border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
     background-color:#61B4CF;
     margin: 2% 0 0 0;
     width: auto;
