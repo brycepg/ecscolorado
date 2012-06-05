@@ -4,9 +4,11 @@ p {
 }
 
 img#thumbnail {
-    margin: 0.9% 0.6% 0 0;
+    margin: 12px 0 0 0;
     border: 2px solid black;
-    margin-right: 0.6%;
+    margin-right: 8px;
+    margin-left: 40px;
+    margin-bottom: 40px;
     float: right;
     width: 250px;
 }
