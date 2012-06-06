@@ -155,3 +155,12 @@ hr#bottom-dividing {
     clear: both;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
