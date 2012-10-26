@@ -2,6 +2,8 @@ ecscolorado
 ===========
 
 The code may be up at [ecscolorado.com](http://www.ecscolorado.com/). If not, then it may be reached at [server.azrathud.com/ecscolorado](http://www.server.azrathud.com/ecscolorado)
+
+Note: At the time I created this website, I did not understand the usage of PHP(and following PHP frameworks) to cut down on code duplication.
   
   
   
